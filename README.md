@@ -61,7 +61,9 @@ A custom DAX measure was created to render the album cover of the most streamed 
 ```
 _Image html =
 
-<div style=' width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 16px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); display: flex; align-items: center; justify-content: center; background-color: #000;'> <img src=' & [album_cover_url] & ' alt='Album Cover' style=' width: 100%; height: auto; object-fit: cover; object-position: center; border-radius: 0;'> </div> ```
+<div style=' width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 16px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); display: flex; align-items: center; justify-content: center; background-color: #000;'> <img src=' & [album_cover_url] & ' alt='Album Cover' style=' width: 100%; height: auto; object-fit: cover; object-position: center; border-radius: 0;'> </div>
+
+```
 
 This measure is used inside the HTML Content Visual in Power BI to dynamically display the album cover with premium styling.
 
