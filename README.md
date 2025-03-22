@@ -91,21 +91,19 @@ The project is organized as follows:
 spotify_powerbi_project/
 │
 ├── data/
-│   ├── spotify_2023.csv
-│   └── spotify_2023_with_covers.csv
-│
 ├── images/
-│   └── background.png
-│
+├── pbix/
 ├── scripts/
-│   └── get_album_covers.py
-│
-├── spotify_dashboard.pbix
+├── visuals/
 └── README.md
 ```
 ## 🎯 Project Objective
 
 The main objective of this project was to build a professional-quality dashboard using Power BI that not only presents key metrics about Spotify’s most streamed songs in 2023, but also delivers a visually engaging experience.
+
+## 📸 Dashboard Preview
+
+![Spotify Dashboard Preview](visuals/dashboard.png)
 
 Key goals included:
 
